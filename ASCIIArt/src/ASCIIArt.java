@@ -15,3 +15,77 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+
+public class ASCIIArt {
+	
+	public static void pentaStar() {
+		System.out.println("               ^     ");
+		System.out.println("             /   \\   ");
+		System.out.println("        ____/     \\____");
+		System.out.println("        \\             /");
+		System.out.println("          \\         / ");
+		System.out.println("          /         \\ ");
+		System.out.println("         /     ^     \\");
+	}
+	 
+	public static void hexaStar() {
+		System.out.println("            /\\     ");
+		System.out.println("      _____/  \\_____");
+		System.out.println("      \\            /");
+		System.out.println("       >          < ");
+		System.out.println("      /____    ____\\");
+		System.out.println("           \\  /");
+		System.out.println("            \\/");
+	}
+	
+	public static void smallStar() {
+		System.out.println("        **  *    ");
+		System.out.println("          '     ");
+		System.out.println("            + '  ");
+		System.out.println("               -* ");
+		System.out.println("                    > .");
+	}
+	public static void smallStar2() {
+		System.out.println("                    > .");
+		System.out.println("                 , ");
+		System.out.println("             ..'   ");
+		System.out.println("            *      ");
+		System.out.println("         ;*     ");
+	}
+	
+	public static void magician() {
+		System.out.println("         | ");
+		System.out.println("         | ");
+		System.out.println("         | ");
+		System.out.println("         |_ ");
+		System.out.println("          \\\\");
+		System.out.println("           \\\\ ");
+		System.out.println("            \\\\ --");
+		System.out.println("             ('^'  ) ");
+		System.out.println("              |   \\\\");
+		System.out.println("              |    \\\\");
+		System.out.println("              |     \\\\");
+		System.out.println("              |   |  ``");
+		System.out.println("              |   |");
+		System.out.println("              |   |");
+		System.out.println("              | | |");
+		System.out.println("              == ==");
+		
+	}
+	
+	public static void main(String[] args) {
+		hexaStar();
+		smallStar(); 
+		pentaStar();
+		smallStar2();
+		hexaStar();
+		smallStar();
+		pentaStar();
+		smallStar();
+		smallStar2();
+		magician();
+		System.out.println("\n**++_ The stars are called out by a young and new magician. _++**");
+		
+	}
+}
